@@ -7,6 +7,6 @@ class My_test < Minitest::Test
     end
 
     def test_upcase
-        assert_equal("HELLO", (hello))
+        assert_equal("HELLO", all_caps(hello))
     end
 end
